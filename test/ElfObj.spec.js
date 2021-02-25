@@ -1,4 +1,4 @@
-import {ElfObj} from '../../src/Elf/ElfObj'
+import {ElfObj} from '../src/ElfObj'
 
 
 /*

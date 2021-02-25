@@ -10,7 +10,7 @@ as a target for machine code subject to emulation.
 
 ## License
 
-Copyright 2021 Michigan State University
+Copyright 2021 Michigan States University
 
 elf-obj is released under the MIT license.
 

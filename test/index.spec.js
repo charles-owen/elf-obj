@@ -1,4 +1,4 @@
-import {ElfObj} from '../..';
+import {ElfObj} from '..';
 
 /*
  * Simple sanity check to ensure index.js exports the Assembler okay.

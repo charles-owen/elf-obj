@@ -25,4 +25,11 @@ export const ElfObj = function(size, bigEndian) {
         // Return it
         return section[name];
     }
+
+    this.load = (data, sectionName) => {
+        sectionName = sectionName === undefined ? 'text' : sectionName;
+        const section = this.getSection(sectionName);
+        section.load(data);
+        return section;
+    }
 }
